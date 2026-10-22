@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__info">
+            <h1 class="header__name">Иван Петров</h1>
+            <p class="header__about">
+                Начинающий веб-разработчик. Изучаю HTML, CSS и JavaScript.
+                Люблю создавать удобные и красивые интерфейсы.
+            </p>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+             Тёмная тема
+        </button>
+    </header>
+
+    <section class="section">
+        <h2 class="section__title">Навыки</h2>
+        <ul class="skills">
+            <li class="skills__item">HTML5 и семантическая вёрстка</li>
+            <li class="skills__item">CSS3, Flexbox и Grid</li>
+            <li class="skills__item">JavaScript (ES6+)</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section__title">Учебные проекты</h2>
+        <div class="projects">
+            <article class="card">
+                <h3 class="card__title">Калькулятор</h3>
+                <p class="card__desc">
+                    Простой калькулятор на JavaScript с поддержкой базовых
+                    арифметических операций и клавиатурного ввода.
+                </p>
+            </article>
+            <article class="card">
+                <h3 class="card__title">To-Do List</h3>
+                <p class="card__desc">
+                    Список задач с возможностью добавления, отметки выполнения
+                    и удаления. Данные сохраняются в localStorage.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
